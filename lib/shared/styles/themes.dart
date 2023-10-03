@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:hexcolor/hexcolor.dart';
+import 'package:shop_app/shared/components/constants.dart';
 
 ThemeData darkTheme = ThemeData(
-  primaryColorLight: Colors.blue,
+  primaryColorLight: defaultColor,
   floatingActionButtonTheme: const FloatingActionButtonThemeData(
     backgroundColor: Colors.blue,
   ),
@@ -45,6 +46,7 @@ ThemeData darkTheme = ThemeData(
       color: Colors.white,
     ),
   ),
+  fontFamily: 'Croissant',
 
 );
 
@@ -95,5 +97,6 @@ ThemeData lightTheme = ThemeData(
       color: Colors.black,
     ),
   ),
+  fontFamily: 'Croissant',
 );
 
